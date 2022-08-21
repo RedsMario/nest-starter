@@ -1,7 +1,7 @@
 import { join } from 'path';
 import { PugAdapter } from '@nestjs-modules/mailer/dist/adapters/pug.adapter';
 import { registerAs } from '@nestjs/config';
-// 提交
+// 提交1
 export default registerAs('email', () => ({
   // 第一种方式 smtps://user:pass@host:port
   transport: 'smtps://2818908400@qq.com:qtdtksximmejdhej@smtp.qq.com',
